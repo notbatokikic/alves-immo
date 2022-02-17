@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    max-width: 100%;
     background-color: #1f2937;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -92,7 +93,7 @@ h2 {
     justify-content: space-evenly;
     padding-top: 30px;
     background-color: #3a495e;
-    padding-bottom: 80px; 
+    padding-bottom: 120px; 
 }
 
 
@@ -159,24 +160,24 @@ form {
 }
 
 #future {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 900;
 }
 
 #newsletter {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     padding-bottom: 40px;
     color: #3a495e;
 }
 
 input {
-    border: 2px solid #e68c17;
+    border: 2.4px solid #e68c17;
     border-radius: 12px;
-    padding: 5px 80px;
+    padding: 6px 90px;
     font-weight: 800;
     text-indent: 20%;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 button {
@@ -184,6 +185,14 @@ button {
     color: white;
     padding: 7px 30px;
     border-radius: 15px;
+    font-weight: 700;
+}
+
+footer {
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
     font-weight: 700;
 }
 
